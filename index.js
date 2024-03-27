@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 let myBalance = 20000;
 let myPin = 33028;
 let pinAnswer = await inquirer.prompt(
-// to create question we use inquirer.prompt
+// to create questions, we use inquirer.prompt
 [
     {
         name: "pin",
